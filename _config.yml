@@ -1,0 +1,11 @@
+name: 10io blog
+markdown: redcarpet
+pygments: true
+
+title : 10io
+tagline: Crafting bytes on Internet.
+
+author :
+  name : David Fernandez
+
+production_url : http://blog.10io.net

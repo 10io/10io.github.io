@@ -9,7 +9,7 @@ Here is a quick tip for correctly configuring Rails Mailers to use with a GMail 
 
 In development.rb
 
-{% highlight ruby %}
+```ruby
 config.action_mailer.raise_delivery_errors = true
 config.action_mailer.delivery_method = :smtp
 config.action_mailer.smtp_settings = {
@@ -22,17 +22,17 @@ config.action_mailer.smtp_settings = {
   :enable_starttls_auto => true
 }
 config.action_mailer.default_url_options = { :host => 'localhost' }
-{% endhighlight %}
+```
 
 In test.rb
 
-{% highlight ruby %}
+```ruby
 config.action_mailer.default_url_options = { :host => 'dummy' }
-{% endhighlight %}
+```
 
 In production.rb
 
-{% highlight ruby %}
+```ruby
 config.action_mailer.raise_delivery_errors = true
 config.action_mailer.delivery_method = :smtp
 config.action_mailer.smtp_settings = {
@@ -45,6 +45,6 @@ config.action_mailer.smtp_settings = {
   :enable_starttls_auto => true
 }
 config.action_mailer.default_url_options = { :host => 'www.mydomain.com' }
-{% endhighlight %}
+```
 
 Take note that you still need a host for the test environment.

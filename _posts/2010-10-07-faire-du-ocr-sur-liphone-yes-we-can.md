@@ -57,18 +57,22 @@ dépendances possibles, histoire de pouvoir l'installer sur l'iPhone
 sans avoir à installer dans notre cas, libtiff.
 Dans le script shell, sur les deux lignes _./configure_, il faut ajouter
  le paramètre suivant _-with-libtiff=nil_pour que les deux lignes deviennent:
-{% highlight bash %}
+
+```bash
 ./configure --host=arm-apple-darwin -with-libtiff=nil
-{% endhighlight %}
+```
+
 et
-{% highlight bash %}
+
+```bash
 ./configure -with-libtiff=nil
-{% endhighlight %}
+```
 
 * Exécuter le script avec:
-{% highlight bash %}
+
+```bash
 ./build_fat.sh
-{% endhighlight %}
+```
 
 * Boire un café.
 

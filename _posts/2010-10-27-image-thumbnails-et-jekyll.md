@@ -28,11 +28,11 @@ Beurk! Que cela ne tienne, Jekyll peut être étendu par des [_tags_ custom][3].
 
 Ce qui générera tout seul ce bout d'html:
 
-{% highlight html %}
+```html
 <a class='image' href='/images/foobar.png'>
     <img src='/images/foobar_t.png' />
 </a>
-{% endhighlight  %}
+```
 
 Plutôt cool, non? Cerise sur le gâteau, le tag s'appuie sur [RMagick][4]
 pour générer un _thumbnail_ de l'image. En résumé, il suffit

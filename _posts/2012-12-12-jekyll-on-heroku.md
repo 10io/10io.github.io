@@ -25,16 +25,20 @@ So I settled on the plan of deploying this Jekyll blog using the free Heroku dyn
 You don't like long titles?
 
 * In the root of your site, add a Gemfile with
-{% highlight ruby %}
+
+```ruby
 source :rubygems
 gem 'rack-contrib'
-{% endhighlight %}
+```
+
 * Run
-{% highlight bash %}
+
+```bash
 $ bundle install
-{% endhighlight %}
+```
+
 * Add a config.ru file with
-{% highlight ruby %}
+```ruby
 require 'rack/contrib/try_static'
 
 use Rack::TryStatic,
@@ -43,32 +47,39 @@ use Rack::TryStatic,
     :try => ['.html', 'index.html', '/index.html']
 
 run lambda { [404, {'Content-Type' => 'text/html'}, ['Not Found']]}
-{% endhighlight %}
+```
+
 * I like setting the exact command that will be run by the dyno, add a Procfile with
-{% highlight bash %}
+
+```bash
 web: rackup -p $PORT
-{% endhighlight %}
+```
 
 You're done!
 How to test? Actually you have two ways of testing your config:
 * Using foreman (which is part of the Heroku [toolbelt][9])
-{% highlight bash %}
+
+```bash
 $ foreman start
-{% endhighlight %}
+```
+
 * Using the rackup command
-{% highlight bash %}
+
+```bash
 $ rackup -p 4000
-{% endhighlight %}
+```
 
 Once everything is ok, deployment is a piece of cake, once you have [initialized][10] the app on Heroku:
-{% highlight bash %}
+
+```bash
 $ git push heroku master
-{% endhighlight %}
+```
 
 You're done! You can watch the result
-{% highlight bash %}
+
+```bash
 $ heroku open
-{% endhighlight %}
+```
 
 Tadaaaaaa! Cookies time!
 

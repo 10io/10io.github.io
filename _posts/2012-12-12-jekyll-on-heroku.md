@@ -2,7 +2,6 @@
 layout: post
 title: Jekyll on Heroku
 tags: ruby jekyll
-category: 10io
 ---
 
 ##Hero... what?

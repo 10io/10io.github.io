@@ -2,7 +2,6 @@
 layout: post
 title: Rails can't scale
 tags: ruby
-category: dev
 ---
 
 A few weeks ago, I was presenting a web app to some folks. At the end of the presentation, one random guy showed up and asked:

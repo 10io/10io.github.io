@@ -2,7 +2,6 @@
 layout: post
 title: Faire du OCR sur l'iPhone? Yes, we can!
 tags: iPhone
-category: dev
 ---
 
 Qu'est ce que l'OCR? Très simple c'est du [_Optical Character Recognition_][1].

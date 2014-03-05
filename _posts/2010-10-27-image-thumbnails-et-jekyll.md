@@ -2,7 +2,6 @@
 layout: post
 title: Jekyll et les images
 tags: ruby
-category: dev
 ---
 
 Après quelques semaines avec [Jekyll][1], le bilan est positif: c'est

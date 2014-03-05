@@ -1,19 +1,16 @@
 ---
 layout: post
 title: "Ruby Quick Tip: #tap"
-category: dev
 tags: [ruby, "quick tip"]
 ---
 
-# Introducing Ruby Quick Tips
-
 In these series of Ruby Quick Tips, I will try to post all the small tips I use in Ruby to improve code readability or productivity.
-
 Use them in a smart way: it's not because you discovered a hammer that you *need* to see nails everywhere.
+In today quick tip, I present you one of my favourite functions: introducing mister  [#tap](http://ruby-doc.org/core-2.1.1/Object.html#method-i-tap). Applause.
 
 # Tap, tap tap! Who's there?
 
-In today quick tip, I present you one of my favourite functions: introducing mister  [#tap](http://ruby-doc.org/core-2.1.1/Object.html#method-i-tap). Applause.
+
 
 Reading its documentation, it may appear to you as a really simple method:
 

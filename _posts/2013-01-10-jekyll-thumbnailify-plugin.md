@@ -2,7 +2,6 @@
 layout: post
 title: Jekyll thumbnailify plugin
 tags: ruby
-category: 10io
 ---
 
 ##Presenting the thumbnailify plugin!

@@ -2,7 +2,6 @@
 layout: post
 title: Quick guide installing Oracle XE + ruby-oci8 on Ubuntu 10.04
 tags: ubuntu ruby
-category: dev
 ---
 
 Since installing [Oracle XE][1] (stands for eXpress Edition, basically a free edition) on [Ubuntu 10.04 _Lucid Lynx_][2] can be a little hell(read you can spend several hours banging your head against the wall of your choice), I'm writing this quick guide for reference. Bonus for Ruby enthusiasts: we will also install [ruby-oci8][3]. Let's start.

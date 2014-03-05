@@ -2,7 +2,6 @@
 layout: post
 title: Hello world!
 tags: 10io
-category: 10io
 ---
 
 Après quelques mois d'absence, voici le retour du blog 10io. Cette

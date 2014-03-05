@@ -2,7 +2,6 @@
 layout: post
 title: GMail SMTP settings for Rails 3.2
 tags: ruby rails
-category: dev
 ---
 
 Here is a quick tip for correctly configuring Rails Mailers to use with a GMail account with a custom domain name.

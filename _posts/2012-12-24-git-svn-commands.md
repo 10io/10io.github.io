@@ -2,7 +2,6 @@
 layout: post
 title: Git svn commands
 tags: git
-category: dev
 ---
 
 This is my personal cheat sheet for using [git](http://git-scm.com/) with svn servers. It contains all the main day-to-day commands I use. This is not a guide for git. Prior knowledge to git is required. So please [RTFM](http://git-scm.com/book/en/Git-and-Other-Systems-Git-and-Subversion).
